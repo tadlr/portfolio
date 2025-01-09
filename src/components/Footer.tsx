@@ -1,3 +1,7 @@
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faBlog, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faCodeFork } from '@fortawesome/free-solid-svg-icons/faCodeFork';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
 
 const Footer = () => {
@@ -30,12 +34,12 @@ const Footer = () => {
             <div className="flex space-x-8">
               <ul className="flex space-x-4 text-gray-600">
                 <li>
-                  <a href="#about-me" className="hover:text-purple-900 hover:underline">
+                  <a href="/" className="hover:text-purple-900 hover:underline">
                     About me
                   </a>
                 </li>
                 <li>
-                  <a href="#my-work" className="hover:text-purple-900 hover:underline">
+                  <a href="/my-work" className="hover:text-purple-900 hover:underline">
                     Some of my work
                   </a>
                 </li>
@@ -50,7 +54,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://mydinosaurlife.com"
+                    href="https://www.wattpad.com/user/TayJFox"
                     target="_blank"
                     rel="noreferrer"
                     className="hover:text-purple-900 hover:underline">
@@ -69,6 +73,47 @@ const Footer = () => {
           <p>
             &copy; <span className="c-year">2025</span> Gustavo Ramirez
           </p>
+          <div
+            className="flex flex-wrap justify-center lg:justify-start space-x-0 mt-0"
+            role="group"
+            aria-label="Connect with me">
+            <a
+              className="text-white font-medium px-3 py-2 rounded-md  rounded-e-none hover:bg-purple-700 transition"
+              href="https://www.linkedin.com/in/gram-dev/"
+              target="_blank"
+              rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a
+              className="text-dark font-medium px-3 py-2 rounded-none hover:bg-gray-700 transition"
+              href="https://github.com/tadlr"
+              target="_blank"
+              rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a
+              className=" text-white font-medium px-3 py-2 rounded-none hover:bg-blue-800 transition"
+              href="https://tayfox.ca"
+              target="_blank"
+              rel="noreferrer">
+              <FontAwesomeIcon icon={faBlog} />
+            </a>
+            <a
+              className=" text-white font-medium px-3 py-2 rounded-md  rounded-s-none hover:bg-gray-400 transition"
+              href="https://www.wattpad.com/user/TayJFox"
+              target="_blank"
+              rel="noreferrer">
+              <FontAwesomeIcon icon={faBookOpen} />
+            </a>
+
+            {/* <a
+              className="text-white font-medium px-3 py-2 rounded-md  rounded-s-none hover:bg-gray-400 transition"
+              href=""
+              target="_blank"
+              rel="noreferrer">
+              <FontAwesomeIcon icon={faCodeFork} /> Fork this site
+            </a> */}
+          </div>
         </div>
       </div>
     </footer>

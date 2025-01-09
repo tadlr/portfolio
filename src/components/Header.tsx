@@ -105,7 +105,7 @@ function Header() {
             Blog
           </a>
           <a
-            href="https://mydinosaurlife.com"
+            href="https://www.wattpad.com/user/TayJFox"
             target="_blank"
             rel="noreferrer"
             className="hover:text-gray-400">

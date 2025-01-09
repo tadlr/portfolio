@@ -8,7 +8,14 @@ import Portfolio from '@/components/Portfolio/Portfolio';
 import Banner from '@/components/Portfolio/PortfolioBanner';
 import BreadCrumbs from '@/components/Portfolio/BreadCrumbs';
 
-export default function Home() {
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: `My Work - Gustavo's Portfolio`,
+  description: 'Some of my work and stuff.',
+};
+
+export default function MyWork() {
   return (
     <div id="portfolio">
       <SkipLinks />
