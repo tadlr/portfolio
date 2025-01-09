@@ -89,26 +89,26 @@ function Header() {
               ? 'fixed inset-0 bg-gray-900 text-white flex flex-col items-center justify-center z-40 h-screen'
               : 'hidden'
           } lg:flex lg:space-x-4 lg:text-sm lg:font-medium`}>
-          <a href="/" className={`hover:text-gray-400 ${isActiveLink('/') ? 'font-bold' : ''}`}>
+          <a href="/" className={`hover:text-purple-200 ${isActiveLink('/') ? 'font-bold' : ''}`}>
             About me
           </a>
           <a
             href="/my-work"
-            className={`hover:text-gray-400 ${isActiveLink('/my-work') ? 'font-bold' : ''}`}>
+            className={`hover:text-purple-200 ${isActiveLink('/my-work') ? 'font-bold' : ''}`}>
             Some of my work
           </a>
           <a
             href="https://tayfox.ca"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-gray-400">
+            className="hover:text-purple-200">
             Blog
           </a>
           <a
             href="https://www.wattpad.com/user/TayJFox"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-gray-400">
+            className="hover:text-purple-200">
             Creative Writing
           </a>
         </nav>

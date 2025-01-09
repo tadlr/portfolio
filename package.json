@@ -23,6 +23,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
+    "flowbite-react": "^0.10.2",
     "gulp": "5.0.0",
     "gulp-cssimport": "^7.0.0",
     "gulp-postcss": "10.0.0",
@@ -37,8 +38,8 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
-    "@types/http-errors": "2.0.4",
     "@eslint/eslintrc": "^3",
+    "@types/http-errors": "2.0.4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

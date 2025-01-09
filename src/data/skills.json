@@ -43,7 +43,7 @@
     "skills": [
       {
         "name": "React Native",
-        "logo": "/images/react-native.png",
+        "logo": "/images/react-native.webp",
         "alt": "React Native Logo"
       },
       { "name": "Swift", "logo": "/images/swift.svg", "alt": "Swift Logo" },
@@ -199,7 +199,7 @@
         "logo": "/images/webstorm.svg",
         "alt": "WebStorm Logo"
       },
-      { "name": "Rider", "logo": "/images/rider.png", "alt": "Rider Logo" },
+      { "name": "Rider", "logo": "/images/rider.webp", "alt": "Rider Logo" },
       {
         "name": "Visual Studio",
         "logo": "/images/visual-studio.svg",
@@ -252,7 +252,7 @@
         "logo": "/images/cloudflare.svg",
         "alt": "Cloudflare Logo"
       },
-      { "name": "Moho", "logo": "/images/moho.png", "alt": "Moho Logo" }
+      { "name": "Moho", "logo": "/images/moho.webp", "alt": "Moho Logo" }
     ]
   }
 ]

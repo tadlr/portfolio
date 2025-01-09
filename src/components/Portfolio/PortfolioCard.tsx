@@ -1,90 +1,112 @@
+'use client';
+import React from 'react';
 import Image from 'next/image';
 import Carousel from './Carousel';
+import { Button, Popover } from 'flowbite-react';
+import Link from 'next/link';
 
-interface Project {
-  images?: { src: string; alt: string }[];
-  image: string;
-  altText: string;
-  logo: string;
-  logoAltText: string;
-  title: string;
-  technologies: string[];
-  links: { url: string; label: string; icon: string }[];
+export function PopoverElement({ content, trigger = 'click', children }: PopoverElementProps) {
+  const contentElement = (
+    <div className="text-sm text-gray-500 dark:text-gray-400">
+      <div className="px-3 py-2">
+        <>{content}</>
+      </div>
+    </div>
+  );
+
+  return (
+    <Popover content={contentElement} trigger={trigger}>
+      {children}
+    </Popover>
+  );
 }
 
 const PortfolioCard = ({ project }: { project: Project }) => {
-  return (
-    <div className="bg-white shadow-md rounded-md overflow-hidden flex flex-col content-between justify-between">
-      {/* Carousel or Static Image */}
-      {project.images ? (
-        <Carousel images={project.images} />
-      ) : (
+  const CardImage = () => {
+    if (project.images) {
+      return <Carousel images={project.images} />;
+    } else {
+      return (
         <Image
           src={project.image}
           alt={project.altText}
           width={500}
           height={220}
-          className="w-full object-cover h-52"
+          className="w-full object-cover h-[220px]"
           priority
         />
-      )}
+      );
+    }
+  };
 
-      {/* Project Details */}
+  return (
+    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex justify-between content-evenly flex-col">
+      {/* <PopoverElement content={project.title} trigger="hover"> */}
+      <div className="w-full px-2 py-2 text-center bg-slate-200 flex justify-between items-center rounded-t-lg">
+        <Image
+          src={project.logo}
+          alt={project.logoAltText}
+          width={120}
+          height={120}
+          className="rounded-md"
+        />
+        <h3 className="text-black">{project.title}</h3>
+      </div>
+      <CardImage />
 
-      <div className="text-center flex-1">
-        <div className="flex flex-wrap justify-center bg-gray-100 py-3 mb-2 rounded-md h-full">
-          {/* Technology Badge */}
-          <div className="w-full md:w-1/2 text-center">
-            <small className="inline-block bg-green-700 text-white text-xs font-bold px-3 py-1 rounded-full mb-2">
-              Project technology
-            </small>
-            <div className="flex justify-center items-center gap-4">
-              {project.technologies.map((tech, i) => (
-                <div key={i} className="flex flex-col items-center">
-                  <Image
-                    src={`/images/${tech.toLowerCase()}.svg`}
-                    alt={`${tech} logo`}
-                    width={35}
-                    height={35}
-                    className="rounded"
-                  />
-                  {/* <span className="text-xs mt-1">{tech}</span> */}
-                </div>
-              ))}
-            </div>
-          </div>
-          {/* Project Badge */}
-          <div className="w-full md:w-1/2 text-center">
-            <small className="inline-block bg-blue-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-2">
-              Project
-            </small>
-            <div className="flex justify-center items-center">
-              <span className="sr-only">{project.title}</span>
+      <div className="my-0 py-0">
+        <p className="inline-block bg-green-700 text-white text-xs font-bold px-3 py-2 mt-0 rounded-sm w-full mb-0 d-block">
+          Project technology
+        </p>
+        <div className="grid grid-flow-col auto-cols-max gap-3 p-5 bg-white border border-gray-300">
+          {project.technologies.map((tech, i) => (
+            <PopoverElement key={i} content={tech} trigger="hover">
               <Image
-                src={project.logo}
-                alt={project.logoAltText}
-                width={120}
-                height={120}
-                className="rounded-md"
+                src={`/images/${tech.toLowerCase()}.svg`}
+                alt={`${tech} logo`}
+                width={50}
+                height={50}
+                className="rounded max-h-8 h-16 w-auto "
               />
-            </div>
-          </div>
+            </PopoverElement>
+          ))}
         </div>
       </div>
-      <div className="flex flex-row items-center gap-2 px-4 pb-2">
-        {project.links.map((link, index) => (
-          <a
-            key={index}
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-indigo-900 text-white text-sm px-4 py-2 rounded-md mt-2 hover:bg-indigo-700 flex-1 text-center">
-            {link.label}
-            <i className={`ml-2 ${link.icon}`}></i>
-          </a>
-        ))}
-      </div>
+
+      {project.links ? (
+        <div className="p-3 flex justify-between items-center bg-slate-900 rounded-b-lg">
+          {project.links.length > 1 ? (
+            <Button.Group className="mx-auto gap-3" outline>
+              {project.links.map((link, index) => (
+                <PortfolioButton key={index} url={link.url} label={link.label} />
+              ))}
+            </Button.Group>
+          ) : (
+            <PortfolioButton
+              url={project.links[0].url}
+              label={project.links[0].label}
+              className="m-auto w-auto"
+            />
+          )}
+        </div>
+      ) : (
+        <></>
+      )}
     </div>
+  );
+};
+
+const PortfolioButton = ({ url, label, className }: PrettyButonProps) => {
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`relative inline-flex items-center justify-center p-0.5 mb-2 mx-auto overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 ${className}`}>
+      <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+        {label}
+      </span>
+    </a>
   );
 };
 

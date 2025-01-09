@@ -2,20 +2,20 @@ import Image from 'next/image';
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="bg-gray-100 py-12">
+    <section id="about-me" className="bg-slate-900 py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Title Section */}
           <div className="lg:col-span-1">
             <div className="sticky top-20">
-              <h2 className="text-4xl font-medium text-gray-800">
+              <h2 className="text-4xl font-medium text-gray-200">
                 <span className="featured">About me</span>
               </h2>
             </div>
           </div>
 
           {/* Content Section */}
-          <div className="lg:col-span-3 space-y-6 text-gray-700">
+          <div className="lg:col-span-3 space-y-6 text-gray-300">
             <p>
               Innovative and goal-oriented Full Stack Developer with nearly a decade of experience
               in web and mobile application development. Known for a strong commitment to

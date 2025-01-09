@@ -1,102 +1,211 @@
 [
   {
-    "title": "Chillflix",
-    "image": "/images/portfolio/chillflix-img.png",
-    "altText": "Person holding a phone with the MatchCart home screen",
-    "technologies": ["JavaScript", "CSS"],
-    "projectType": "College project",
-    "logo": "/images/portfolio/chillflix.svg",
-    "logoAltText": "Chillflix logo",
-    "links": [
+    "sectionTitle": "Web Dev",
+    "projects": [
       {
-        "label": "View project",
-        "url": "https://rami0101-ac.github.io/mad9014-final-project/",
-        "icon": "bi-box-arrow-up-right"
+        "title": "CHRC Housing Rights",
+        "images": [
+          {
+            "src": "/portfolio/chrc/chrc-housing-img.webp",
+            "alt": "Row of colorful houses in St John’s Newfoundland Canada. CHRC Housing rights."
+          },
+          {
+            "src": "/portfolio/chrc/housing1.webp",
+            "alt": "Housing new submission dashboard"
+          },
+          {
+            "src": "/portfolio/chrc/housing2.webp",
+            "alt": "Housing issue submission"
+          },
+          {
+            "src": "/portfolio/chrc/housing3.webp",
+            "alt": "Housing my account page"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS"],
+
+        "logo": "/portfolio/chrc/chrc-housing.svg",
+        "logoAltText": "CHRC Office of the Federal Housing Advocate Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://www.housingchrc.ca/en/housing-submission"
+          }
+        ]
+      },
+      {
+        "title": "Invest in Canada FDI Report",
+        "images": [
+          {
+            "src": "/portfolio/fdi/fdi-img.webp",
+            "alt": "Picture of Canadian City with Invest in Canada logo"
+          },
+          {
+            "src": "/portfolio/fdi/fdi1.webp",
+            "alt": "CHRC new submission dashboard"
+          },
+          {
+            "src": "/portfolio/fdi/fdi2.webp",
+            "alt": "CHRC new submission dashboard"
+          },
+          {
+            "src": "/portfolio/fdi/fdi3.webp",
+            "alt": "CHRC new submission dashboard"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS"],
+
+        "logo": "/portfolio/fdi/iic-logo.svg",
+        "logoAltText": "Invest in Canada Logo",
+        "links": [
+          {
+            "label": "View 2020 project",
+            "url": "https://fdi2020.investcanada.ca/"
+          },
+          {
+            "label": "View 2019 project",
+            "url": "https://fdi2019.investcanada.ca/"
+          }
+        ]
+      },
+      {
+        "title": "Giftr React App",
+        "images": [
+          {
+            "src": "/portfolio/giftr/giftr.webp",
+            "alt": "Gift Screenshot"
+          },
+          {
+            "src": "/portfolio/giftr/giftr2.webp",
+            "alt": "Gift Screenshot 2"
+          },
+          {
+            "src": "/portfolio/giftr/giftr3.webp",
+            "alt": "Gift Screenshot 3"
+          },
+          {
+            "src": "/portfolio/giftr/giftr4.webp",
+            "alt": "Gift Screenshot 4"
+          },
+
+          {
+            "src": "/portfolio/giftr/giftr5.webp",
+            "alt": "Gift Screenshot 5"
+          }
+        ],
+        "technologies": ["React", "Vite", "render", "netlify"],
+
+        "logo": "/portfolio/giftr/giftr-logo.svg",
+        "logoAltText": "Giftr Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://giftr-vctr.netlify.app/"
+          },
+          {
+            "label": "Frontend Git",
+            "url": "https://github.com/tadlr/Giftr-React-Frontend"
+          },
+          {
+            "label": "Backend Git",
+            "url": "https://github.com/tadlr/Giftr-API"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "sectionTitle": "Mobile Apps",
+    "projects": [
+      {
+        "title": "Goodeals",
+        "image": "/portfolio/goodeals/goodeals-1.webp",
+        "altText": "Goodeals Banner",
+
+        "technologies": [
+          "Expo",
+          "React",
+          "TypeScript",
+          "TailwindCSS",
+          "postgreSQL",
+          "netlify",
+          "render"
+        ],
+        "video": "/portfolio/goodeals/goodeals.mp4",
+        "logo": "/portfolio/goodeals/goodeals-logo.webp",
+        "logoAltText": "Goodeals logo"
       }
     ]
   },
   {
-    "title": "MatchCart App Prototype Design",
-    "image": "/images/portfolio/matchcart-img.png",
-    "altText": "Person holding a phone with the MatchCart home screen",
-    "technologies": ["Figma"],
-    "projectType": "College project",
-    "logo": "/images/portfolio/matchcart-logo.svg",
-    "logoAltText": "MatchCart Logo",
-    "links": [
+    "sectionTitle": "Other Projects",
+    "projects": [
       {
-        "label": "View figma prototype",
-        "url": "https://www.figma.com/proto/I9bHQI3bcpPVFWBNAfziPD/Group-One---MatchCart---Final-Project?page-id=91%3A1314&node-id=91%3A1315&starting-point-node-id=91%3A1315&scaling=scale-down",
-        "icon": "bi-box-arrow-up-right"
-      }
-    ]
-  },
-  {
-    "title": "CHRC Housing Rights",
-    "images": [
-      {
-        "src": "/images/portfolio/chrc-housing-img.jpg",
-        "alt": "Row of colorful houses in St John’s Newfoundland Canada. CHRC Housing rights."
+        "title": "Chillflix",
+        "image": "/portfolio/chillflix/chillflix-img.webp",
+        "altText": "Movie theater",
+        "technologies": ["JavaScript", "CSS"],
+
+        "logo": "/portfolio/chillflix/chillflix.svg",
+        "logoAltText": "Chillflix logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://chillflix.tadlr.tech/"
+          },
+          {
+            "label": "Source code",
+            "url": "https://github.com/tadlr/chillflix"
+          }
+        ]
       },
       {
-        "src": "/images/portfolio/housing1.png",
-        "alt": "Housing new submission dashboard"
+        "title": "MadTunes PWA",
+        "images": [
+          {
+            "src": "/portfolio/madtunes/madtunes.webp",
+            "alt": "Madtunes Screenshots"
+          },
+          {
+            "src": "/portfolio/madtunes/madtunes-1.webp",
+            "alt": "Madtunes Screenshots"
+          },
+          {
+            "src": "/portfolio/madtunes/madtunes-2.webp",
+            "alt": "Madtunes Screenshots"
+          }
+        ],
+        "altText": "Screenshot of Web MaddTunes app",
+        "technologies": ["JavaScript", "CSS"],
+
+        "logo": "/portfolio/madtunes/logo.webp",
+        "logoAltText": "MaddTunes Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://media-player.tadlr.tech/"
+          },
+          {
+            "label": "Source code",
+            "url": "https://github.com/tadlr/media-player"
+          }
+        ]
       },
       {
-        "src": "/images/portfolio/housing2.png",
-        "alt": "Housing issue submission"
-      },
-      {
-        "src": "/images/portfolio/housing3.png",
-        "alt": "Housing my account page"
-      }
-    ],
-    "technologies": ["Drupal"],
-    "projectType": "Client",
-    "logo": "/images/portfolio/chrc-housing.svg",
-    "logoAltText": "CHRC Office of the Federal Housing Advocate Logo",
-    "links": [
-      {
-        "label": "View project",
-        "url": "https://www.housingchrc.ca/en/housing-submission",
-        "icon": "bi-box-arrow-up-right"
-      }
-    ]
-  },
-  {
-    "title": "Invest in Canada FDI Report",
-    "images": [
-      {
-        "src": "/images/portfolio/fdi-img.png",
-        "alt": "Picture of Canadian City with Invest in Canada logo"
-      },
-      {
-        "src": "/images/portfolio/fdi1.png",
-        "alt": "CHRC new submission dashboard"
-      },
-      {
-        "src": "/images/portfolio/fdi2.png",
-        "alt": "CHRC new submission dashboard"
-      },
-      {
-        "src": "/images/portfolio/fdi3.png",
-        "alt": "CHRC new submission dashboard"
-      }
-    ],
-    "technologies": ["Drupal"],
-    "projectType": "Client",
-    "logo": "/images/portfolio/iic-logo.svg",
-    "logoAltText": "Invest in Canada Logo",
-    "links": [
-      {
-        "label": "View 2020 project",
-        "url": "https://fdi2020.investcanada.ca/",
-        "icon": "bi-box-arrow-up-right"
-      },
-      {
-        "label": "View 2019 project",
-        "url": "https://fdi2019.investcanada.ca/",
-        "icon": "bi-box-arrow-up-right"
+        "title": "MatchCart App Prototype Design",
+        "image": "/portfolio/matchcart/matchcart-img.webp",
+        "altText": "Person holding a phone with the MatchCart home screen",
+        "technologies": ["Figma"],
+
+        "logo": "/portfolio/matchcart/matchcart-logo.svg",
+        "logoAltText": "MatchCart Logo",
+        "links": [
+          {
+            "label": "View figma prototype",
+            "url": "https://www.figma.com/proto/I9bHQI3bcpPVFWBNAfziPD/Group-One---MatchCart---Final-Project?page-id=91%3A1314&node-id=91%3A1315&starting-point-node-id=91%3A1315&scaling=scale-down"
+          }
+        ]
       }
     ]
   }

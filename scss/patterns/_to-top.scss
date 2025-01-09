@@ -1,7 +1,7 @@
-@use '../bootstrap-overwrites';
+@use '../variables';
 
 .to-top {
-  background-color: bootstrap-overwrites.$secondary;
+  background-color: variables.$secondary;
 }
 
 .to-top-container.visible {

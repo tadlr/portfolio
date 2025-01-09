@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function MyWork() {
   return (
-    <div id="portfolio">
+    <div id="portfolio" className="dark">
       <SkipLinks />
       <Header />
       <Banner />

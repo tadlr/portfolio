@@ -33,7 +33,7 @@ const HomeHero = () => {
               <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
             <a
-              className="bg-gray-700 text-white font-medium px-3 py-2 rounded-none hover:bg-gray-800 transition"
+              className="bg-gray-700 text-white font-medium px-3 py-2 rounded-none hover:bg-gray-200 transition"
               href="https://github.com/tadlr"
               target="_blank"
               rel="noreferrer">

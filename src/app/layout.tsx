@@ -1,5 +1,8 @@
+import React from 'react';
 import type { Metadata } from 'next';
 import { Lato } from 'next/font/google';
+import { ThemeModeScript } from 'flowbite-react';
+
 import './globals.css';
 import '@/css/main.css';
 
@@ -22,7 +25,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth dark" suppressHydrationWarning>
+      <head>
+        <ThemeModeScript />
+      </head>
+
       <body className={`${lato.variable} antialiased`}>{children}</body>
     </html>
   );
