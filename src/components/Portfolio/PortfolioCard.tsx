@@ -23,7 +23,7 @@ const PortfolioCard = ({ project }: { project: Project }) => {
           src={project.image}
           alt={project.altText}
           width={500}
-          height={300}
+          height={220}
           className="w-full object-cover h-52"
           priority
         />

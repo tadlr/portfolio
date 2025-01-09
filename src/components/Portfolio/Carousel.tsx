@@ -37,7 +37,7 @@ const Carousel = ({ images }: CarouselProps) => {
   return (
     <>
       {/* Thumbnail Carousel */}
-      <div className="relative w-full overflow-hidden rounded-lg shadow-md h-52">
+      <div className="relative w-full overflow-hidden rounded-lg shadow-lg h-52">
         {images.map((image, index) => (
           <div
             key={index}
@@ -49,9 +49,9 @@ const Carousel = ({ images }: CarouselProps) => {
             <Image
               src={image.src}
               alt={image.alt}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg cursor-pointer object-cover"
+              width={500}
+              height={220}
+              className="rounded-lg cursor-pointer object-cover h-full"
               priority
             />
           </div>
@@ -89,8 +89,8 @@ const Carousel = ({ images }: CarouselProps) => {
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  layout="fill"
-                  objectFit="contain"
+                  width={500}
+                  height={220}
                   className="rounded-lg object-cover"
                   priority
                 />
