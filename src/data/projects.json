@@ -1,0 +1,103 @@
+[
+  {
+    "title": "Chillflix",
+    "image": "/images/portfolio/chillflix-img.png",
+    "altText": "Person holding a phone with the MatchCart home screen",
+    "technologies": ["JavaScript", "CSS"],
+    "projectType": "College project",
+    "logo": "/images/portfolio/chillflix.svg",
+    "logoAltText": "Chillflix logo",
+    "links": [
+      {
+        "label": "View project",
+        "url": "https://rami0101-ac.github.io/mad9014-final-project/",
+        "icon": "bi-box-arrow-up-right"
+      }
+    ]
+  },
+  {
+    "title": "MatchCart App Prototype Design",
+    "image": "/images/portfolio/matchcart-img.png",
+    "altText": "Person holding a phone with the MatchCart home screen",
+    "technologies": ["Figma"],
+    "projectType": "College project",
+    "logo": "/images/portfolio/matchcart-logo.svg",
+    "logoAltText": "MatchCart Logo",
+    "links": [
+      {
+        "label": "View figma prototype",
+        "url": "https://www.figma.com/proto/I9bHQI3bcpPVFWBNAfziPD/Group-One---MatchCart---Final-Project?page-id=91%3A1314&node-id=91%3A1315&starting-point-node-id=91%3A1315&scaling=scale-down",
+        "icon": "bi-box-arrow-up-right"
+      }
+    ]
+  },
+  {
+    "title": "CHRC Housing Rights",
+    "images": [
+      {
+        "src": "/images/portfolio/chrc-housing-img.jpg",
+        "alt": "Row of colorful houses in St John’s Newfoundland Canada. CHRC Housing rights."
+      },
+      {
+        "src": "/images/portfolio/housing1.png",
+        "alt": "Housing new submission dashboard"
+      },
+      {
+        "src": "/images/portfolio/housing2.png",
+        "alt": "Housing issue submission"
+      },
+      {
+        "src": "/images/portfolio/housing3.png",
+        "alt": "Housing my account page"
+      }
+    ],
+    "technologies": ["Drupal"],
+    "projectType": "Client",
+    "logo": "/images/portfolio/chrc-housing.svg",
+    "logoAltText": "CHRC Office of the Federal Housing Advocate Logo",
+    "links": [
+      {
+        "label": "View project",
+        "url": "https://www.housingchrc.ca/en/housing-submission",
+        "icon": "bi-box-arrow-up-right"
+      }
+    ]
+  },
+  {
+    "title": "Invest in Canada FDI Report",
+    "images": [
+      {
+        "src": "/images/portfolio/fdi-img.png",
+        "alt": "Picture of Canadian City with Invest in Canada logo"
+      },
+      {
+        "src": "/images/portfolio/fdi1.png",
+        "alt": "CHRC new submission dashboard"
+      },
+      {
+        "src": "/images/portfolio/fdi2.png",
+        "alt": "CHRC new submission dashboard"
+      },
+      {
+        "src": "/images/portfolio/fdi3.png",
+        "alt": "CHRC new submission dashboard"
+      }
+    ],
+    "technologies": ["Drupal"],
+    "projectType": "Client",
+    "logo": "/images/portfolio/iic-logo.svg",
+    "logoAltText": "Invest in Canada Logo",
+    "links": [
+      {
+        "label": "View 2020 project",
+        "url": "https://fdi2020.investcanada.ca/",
+        "icon": "bi-box-arrow-up-right"
+      },
+      {
+        "label": "View 2019 project",
+        "url": "https://fdi2019.investcanada.ca/",
+        "icon": "bi-box-arrow-up-right"
+      }
+    ]
+  }
+]

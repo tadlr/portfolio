@@ -1,0 +1,122 @@
+@use '../bootstrap-overwrites';
+
+h1 {
+  font-size: 2.019rem;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.756rem;
+  line-height: 1.3;
+
+  @media screen and (min-width: 32rem) {
+    .featured {
+      padding-left: 0.625rem;
+      padding-right: 0.625rem;
+      border-left: 0.3125rem solid bootstrap-overwrites.$primary;
+      // border-right: 0.3125rem solid $primary;
+    }
+  }
+
+  @media screen and (min-width: 61rem) {
+    .featured {
+      display: block;
+    }
+  }
+}
+
+h3 {
+  &:not(.card-title) {
+    color: bootstrap-overwrites.$titles;
+    font-size: 1.525rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+    position: relative;
+    padding-left: 0.9375rem;
+
+    &::before {
+      content: '';
+      width: 0;
+      height: 0;
+
+      display: inline-block;
+      border-top: 0.4375rem solid transparent;
+      border-bottom: 0.4375rem solid transparent;
+      border-left: 0.6875rem solid bootstrap-overwrites.$titles;
+      position: absolute;
+      margin-top: -0.3125rem;
+      left: 0;
+      top: 50%;
+    }
+  }
+}
+.ext-link {
+  font-size: 0.7rem;
+}
+h4 {
+  font-size: 1.325rem;
+  color: bootstrap-overwrites.$third;
+  margin: 0;
+  line-height: 1.3;
+}
+
+h5 {
+  font-size: 1.15rem;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 45em) {
+  h1 {
+    font-size: 2.481rem;
+  }
+
+  h2 {
+    font-size: 2.069rem;
+  }
+
+  h3 {
+    font-size: 1.725rem;
+  }
+
+  h4 {
+    font-size: 1.438rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  h1 {
+    font-size: 3.056rem;
+  }
+
+  h2 {
+    font-size: 2.444rem;
+  }
+
+  h3 {
+    font-size: 1.956rem;
+  }
+
+  h4 {
+    font-size: 1.563rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+}
+
+.blockquote-footer {
+  color: #b1b1b1;
+  margin-bottom: 0;
+}

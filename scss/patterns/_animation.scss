@@ -1,0 +1,29 @@
+.animate {
+  opacity: 1;
+
+  &.in-view {
+    &.fade__ {
+      &in {
+        animation: fade__in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+      &bottom {
+        animation: fade__bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+
+      &left {
+        animation: fade__left 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+      &top {
+        animation: fade__top 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+      &right {
+        animation: fade__right 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      }
+    }
+    &.slide__ {
+      &center {
+        animation: slide__center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both 0.75s;
+      }
+    }
+  }
+}

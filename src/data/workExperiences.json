@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Senior Frontend Developer",
+    "company": "Sekure Payment Experts, Montreal, Quebec",
+    "dates": "Feb 2023 - Sep 2024",
+    "responsibilities": [
+      "Developed accessible, user-friendly WordPress web pages, enhancing user experience and ensuring optimal performance on various devices.",
+      "Engineered and integrated advanced functionalities into existing WordPress sites, elevating interactivity and site performance.",
+      "Resolved complex front-end issues, optimized code to improve site performance significantly, and developed custom solutions like plugins and themes tailored to business needs.",
+      "Worked closely with multiple teams to deliver scalable solutions and mentored junior developers to foster skills improvement and professional growth.",
+      "Championed accessibility by implementing WCAG standards and improved user satisfaction by 40% through iterative design enhancements based on user feedback.",
+      "Ensured high-quality, consistent coding and design across projects, proactively identifying and addressing UI/UX design pitfalls to enhance user experience."
+    ]
+  },
+  {
+    "title": "Intermediate Web Developer",
+    "company": "WebDrive Canada, Ottawa, Ontario",
+    "dates": "Jun 2020 - Feb 2023",
+    "responsibilities": [
+      "Installed new Drupal WxT installation on local and development environments, operating Lando, MAMP and Apache.",
+      "Built front-end web development following guidelines in design mock-up, using Twig, HTML, jQuery, JavaScript, and SASS.",
+      "Tested, performed QA and debugged multiple projects with WCAG accessibility standards.",
+      "Troubleshot broken and unresponsive Drupal projects and performed upgrades from Drupal 8 to Drupal 9.",
+      "Managed web servers, configuring local and remote instances to host web applications."
+    ]
+  },
+  {
+    "title": "Web Developer",
+    "company": "LinkNow Media, Montreal, Quebec",
+    "dates": "Nov 2018 - Jun 2020",
+    "responsibilities": [
+      "Led development of robust WordPress plug-ins and themes to meet requirements for functionality, scalability, and performance. Working closely with design team members.",
+      "Collaborated with more than 5 cross-functional design departments to create software solutions elevated client-side experience and revised overall functionality and performance.",
+      "Modified more than 30 existing internal and external plug-ins and tools to correct coding errors, upgrade interfaces, and improve overall performance.",
+      "Tested troubleshooting methods, devised innovative solutions, and documented resolutions for inclusion in knowledge base for support team use. Created more than 10 different support wikis."
+    ]
+  },
+  {
+    "title": "Web Developer",
+    "company": "Freelancer, Mexico City, Mexico",
+    "dates": "Mar 2015 - Nov 2018",
+    "responsibilities": [
+      "Conceived and built optimized web pages in HTML and CSS, using WordPress as CMS and cross-browser compatibility, to support marketing and e-commerce.",
+      "Submitted professional proposals and project scopes to potential employers. Tracking hours and expenses for more than 5 projects at a time, detailing each action and charge.",
+      "Designed more than 20 eye-catching and functional digital design concepts across various platforms to strengthen company brand and identity.",
+      "Designed and constructed sites using a content management system such as WordPress, ensuring compatibility with top browsers, including Firefox, Chrome, and Safari.",
+      "Owned more than 28 projects from initial research and conceptual design through development, testing, and implementation phases. Completed full redesigns of existing websites to improve navigation, enhance visuals, and strengthen search engine rankings."
+    ]
+  },
+  {
+    "title": "Web Developer | Project Manager",
+    "company": "Geekbears, Mexico City, Mexico",
+    "dates": "Jan 2018 - Aug 2018",
+    "responsibilities": [
+      "Developed high-class websites with Drupal 8 as a content management system by following mock-ups and wireframes provided by project manager using technologies such as WordPress, Genesis Framework, HTML, CSS, jQuery, and PHP.",
+      "Managed Web servers and initial set-up of AWS instances for web hosting using technologies such as cPanel, XAMP, MAMP, Apache, MariaDB, etc.",
+      "Maintained multiple WordPress websites with some direct communication with customers. Closely collaborated with co-workers to identify and quickly address problems.",
+      "Developed and initiated more than 10 projects, including managing pricing, sale strategies, and performance."
+    ]
+  }
+]

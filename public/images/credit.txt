@@ -1,0 +1,45 @@
+html.svg
+W3C, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
+
+css.svg
+Rudloff, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
+
+
+sass.svg
+http://sass-lang.com/, Public domain, via Wikimedia Commons
+
+javascript.svg
+Chris Williams, Public domain, via Wikimedia Commons
+
+php.svg
+Colin Viebrock, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+
+twig.svg
+https://github.com/twigphp/Twig/issues/2347
+
+drupal.svg
+https://upload.wikimedia.org/wikipedia/commons/c/c1/Drupal-wordmark.svg
+
+wordpress.svg
+WordPress, GPL <http://www.gnu.org/licenses/gpl.html>, via Wikimedia Commons
+
+bootstrap.svg
+Bootstrap, Public domain, via Wikimedia Commons
+
+wet.svg
+https://wet-boew.github.io/v4.0-ci/docs/ref/promo-en.html?wbdisable=true
+
+jquery.svg
+jQuery Team, Public domain, via Wikimedia Commons
+
+photoshop.svg
+Adobe, Public domain, via Wikimedia Commons
+
+illustrator.svg
+™/®Adobe Inc., Public domain, via Wikimedia Commons
+
+adobexd.svg
+™/®Adobe Systems, Public domain, via Wikimedia Commons
+
+figma.svg
+Figma, Public domain, via Wikimedia Commons

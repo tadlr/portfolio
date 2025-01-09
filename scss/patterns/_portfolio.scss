@@ -1,0 +1,13 @@
+.project__logo,
+.project__type {
+  min-width: 5rem;
+  max-width: 8rem;
+  max-height: 3rem;
+  text-align: center;
+}
+
+.project__image {
+  max-height: 13rem;
+  object-fit: cover;
+  object-position: top center;
+}

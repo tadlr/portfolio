@@ -1,0 +1,50 @@
+.home-banner {
+  background-image: linear-gradient(to bottom, rgba(64, 31, 79, 0.6), rgba(82, 75, 83, 0.6)),
+    url('/images/home-banner.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.home-banner .container {
+  min-height: 80vh;
+  padding: 3rem 1.5rem;
+}
+
+@media only screen and (min-width: 45em) {
+  .home-banner .container {
+    min-height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+}
+
+.banner {
+  background-image: linear-gradient(to bottom, rgba(64, 31, 79, 0.6), rgba(82, 75, 83, 0.6)),
+    url('/images/home-banner.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#banner figure figcaption::before {
+  content: '— ';
+}
+
+.banner .container {
+  min-height: 50vh;
+  padding: 3rem 1.5rem;
+}
+
+@media only screen and (min-width: 45em) {
+  .banner .container {
+    min-height: 35vh;
+  }
+}
+
+#banner {
+  background-color: rgb(48, 24, 50) !important;
+}

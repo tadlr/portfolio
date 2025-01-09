@@ -1,0 +1,32 @@
+.card-img-top {
+  height: 10rem;
+  object-fit: contain;
+  padding: 1rem 2rem;
+}
+
+.card-group {
+  padding-top: 1.5rem;
+}
+
+.skill__cards {
+  .card {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.4);
+
+      transition: none;
+    }
+    &:hover {
+      &:after {
+        width: 120%;
+        background-color: rgba(255, 255, 255, 0);
+        transition: all 0.7s ease-in-out;
+      }
+    }
+  }
+}

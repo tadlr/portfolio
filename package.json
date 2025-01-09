@@ -3,25 +3,48 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "npm-run-all --parallel next-dev gulp-watch",
+    "next-dev": "next dev  --turbopack",
+    "gulp-watch": "gulp watch",
+    "gulp-build": "gulp build",
+    "prebuild": "gulp build",
     "build": "next build",
-    "start": "next start",
+    "start": "npm-run-all --parallel next-start gulp-build",
+    "next-start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "gulp": "5.0.0",
+    "gulp-cssimport": "^7.0.0",
+    "gulp-postcss": "10.0.0",
+    "gulp-sass": "6.0.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "next": "15.1.4",
+    "npm-run-all": "^4.1.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.4"
+    "sass": "1.83.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.4",
-    "@eslint/eslintrc": "^3"
-  }
+    "postcss": "^8",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "2.0.0",
+    "typescript": "^5"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

@@ -1,0 +1,79 @@
+// Color system
+
+$white: #fff;
+$gray-100: #f6f6f6;
+
+$gray-900: #333;
+$black: #000;
+
+$blue: #6a4c93;
+$indigo: #892b64;
+$purple: #1780a1;
+$pink: #2e6f95;
+$red: #9b2915;
+$yellow: #ffc107;
+$green: #198754;
+
+// scss-docs-start theme-color-variables
+$primary: $blue;
+$secondary: $indigo;
+$success: $green;
+$info: $pink;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+
+//Custom colour
+$third: $purple;
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'third': $third,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+);
+
+// $white: #ffffff;
+// $light: #31213f;
+// $dark: #1b062a;
+// $primary: #702553;
+// $secondary: #f92967;
+// $info: #f8575b;
+// $accent1: #372943;
+// $accent2: #7566a8;
+// $accent3: #ba7b12;
+// $success: #099d6b;
+// $warning: #48bfe3;
+// $danger: #e03c03;
+
+// $theme-colors: (
+//   'light': #31213f,
+//   'dark': #1b062a,
+//   'primary': #702553,
+//   'secondary': #f92967,
+//   'info': #f8575b,
+//   'accent1': #372943,
+//   'accent2': #7566a8,
+//   'accent3': #ba7b12,
+//   'success': #099d6b,
+//   'warning': #48bfe3,
+//   'danger': #e03c03,
+// );
+
+$titles: $primary;
+
+// $navbar-dark-color: rgba($white, 1);
+
+// $badge-font-size: 1em;
+
+// $font-family-sans-serif: 'Lato', sans-serif, system-ui, -apple-system,
+//   'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial,
+//   sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+//   'Noto Color Emoji';

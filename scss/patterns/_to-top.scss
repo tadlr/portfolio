@@ -1,0 +1,40 @@
+@use '../bootstrap-overwrites';
+
+.to-top {
+  background-color: bootstrap-overwrites.$secondary;
+}
+
+.to-top-container.visible {
+  transform: translateY(0);
+}
+
+.to-top-container {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+
+  transition:
+    transform 0.2s,
+    bottom 0.2s;
+
+  cursor: pointer;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  transform: translateY(145%);
+
+  &:hover,
+  &:focus-visible {
+    bottom: 1.5rem;
+    color: #000;
+    transform: translateY(0);
+  }
+}
+
+.screen-reader-text {
+  position: absolute;
+  clip-path: polygon(0 0, 0.1% 0, 0.1% 0.1%, 0 0.1%);
+}
