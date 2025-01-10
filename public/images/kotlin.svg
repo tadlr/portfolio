@@ -1,50 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
-    <defs>
-        <linearGradient x1="26.599%" y1="146.559136%" x2="73.8446667%" y2="52.3813953%" id="linearGradient-1">
-            <stop stop-color="#0095D5" offset="9.677%">
-</stop>
-            <stop stop-color="#238AD9" offset="30.07%">
-</stop>
-            <stop stop-color="#557BDE" offset="62.11%">
-</stop>
-            <stop stop-color="#7472E2" offset="86.43%">
-</stop>
-            <stop stop-color="#806EE3" offset="100%">
-</stop>
-        </linearGradient>
-        <linearGradient x1="13.9840532%" y1="37.1049231%" x2="68.682392%" y2="-13.5538462%" id="linearGradient-2">
-            <stop stop-color="#0095D5" offset="11.83%">
-</stop>
-            <stop stop-color="#3C83DC" offset="41.78%">
-</stop>
-            <stop stop-color="#6D74E1" offset="69.62%">
-</stop>
-            <stop stop-color="#806EE3" offset="83.33%">
-</stop>
-        </linearGradient>
-        <linearGradient x1="-16.8361667%" y1="91.9396667%" x2="76.2191667%" y2="-1.11566667%" id="linearGradient-3">
-            <stop stop-color="#C757BC" offset="10.75%">
-</stop>
-            <stop stop-color="#D0609A" offset="21.38%">
-</stop>
-            <stop stop-color="#E1725C" offset="42.54%">
-</stop>
-            <stop stop-color="#EE7E2F" offset="60.48%">
-</stop>
-            <stop stop-color="#F58613" offset="74.3%">
-</stop>
-            <stop stop-color="#F88909" offset="82.32%">
-</stop>
-        </linearGradient>
-    </defs>
-    <g>
-				<polygon fill="url(#linearGradient-1)" points="0 256 128.426667 127.573333 256 256">
-</polygon>
-				<polygon fill="url(#linearGradient-2)" points="0 0 128.426667 0 0 138.666667">
-</polygon>
-				<polygon fill="url(#linearGradient-3)" points="128.426667 0 0 135.253333 0 256 128.426667 127.573333 256 0">
-</polygon>
-    </g>
-</svg>
+<svg height="800" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="26.599%" x2="73.844667%" y1="146.559136%" y2="52.381395%"><stop offset=".09677" stop-color="#0095d5"/><stop offset=".3007" stop-color="#238ad9"/><stop offset=".6211" stop-color="#557bde"/><stop offset=".8643" stop-color="#7472e2"/><stop offset="1" stop-color="#806ee3"/></linearGradient><linearGradient id="b" x1="13.984053%" x2="68.682392%" y1="37.104923%" y2="-13.553846%"><stop offset=".1183" stop-color="#0095d5"/><stop offset=".4178" stop-color="#3c83dc"/><stop offset=".6962" stop-color="#6d74e1"/><stop offset=".8333" stop-color="#806ee3"/></linearGradient><linearGradient id="c" x1="-16.836167%" x2="76.219167%" y1="91.939667%" y2="-1.115667%"><stop offset=".1075" stop-color="#c757bc"/><stop offset=".2138" stop-color="#d0609a"/><stop offset=".4254" stop-color="#e1725c"/><stop offset=".6048" stop-color="#ee7e2f"/><stop offset=".743" stop-color="#f58613"/><stop offset=".8232" stop-color="#f88909"/></linearGradient><path d="m0 256 128.426667-128.426667 127.573333 128.426667z" fill="url(#a)"/><path d="m0 0h128.426667l-128.426667 138.666667z" fill="url(#b)"/><path d="m128.426667 0-128.426667 135.253333v120.746667l128.426667-128.426667 127.573333-127.573333z" fill="url(#c)"/></svg>
