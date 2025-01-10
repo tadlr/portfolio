@@ -29,7 +29,7 @@ const SkillSection = () => {
                     <div
                       key={i}
                       className="bg-slate-800 rounded-lg shadow-md p-4 text-center content-around flex flex-col">
-                      <div className="mx-auto h-full content-center bg-zinc-50 rounded p-2">
+                      <div className="mx-auto h-full content-center rounded p-2">
                         <Image
                           src={skill.logo}
                           alt={skill.alt}
@@ -45,7 +45,7 @@ const SkillSection = () => {
                   {/* "And more..." Card */}
                   {skillsData.length === index + 1 && (
                     <div className="bg-gray-900 rounded-lg p-4 text-center shadow-md">
-                      <p className="text-gray-600">And more...</p>
+                      <p className="text-gray-300">And more...</p>
                     </div>
                   )}
                 </div>

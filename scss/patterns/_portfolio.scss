@@ -11,3 +11,34 @@
   object-fit: cover;
   object-position: top center;
 }
+
+.portfolio_carousel {
+  button {
+    background: rgba(251, 153, 249, 0.35);
+    border-radius: 50%;
+
+    svg {
+      color: #fff !important;
+    }
+  }
+}
+
+.portfolio_modal_carousel {
+  .dark\:border-gray-600:is(.dark *) {
+    border: none;
+  }
+  h3 {
+    display: none;
+  }
+  button.ml-auto.inline-flex.items-center.rounded-lg.bg-transparent {
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+  .max-w-2xl {
+    @media screen and (min-width: 768px) {
+      max-width: 80vw;
+    }
+    max-width: 98vw;
+  }
+}

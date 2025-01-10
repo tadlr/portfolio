@@ -40,17 +40,11 @@ const PortfolioCard = ({ project }: { project: Project }) => {
   };
 
   return (
-    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex justify-between content-evenly flex-col">
+    <div className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex justify-between content-evenly flex-col portfolio_card">
       {/* <PopoverElement content={project.title} trigger="hover"> */}
-      <div className="w-full px-2 py-2 text-center bg-slate-200 flex justify-between items-center rounded-t-lg">
-        <Image
-          src={project.logo}
-          alt={project.logoAltText}
-          width={120}
-          height={120}
-          className="rounded-md"
-        />
-        <h3 className="text-black">{project.title}</h3>
+      <div className="w-full px-2 py-2 text-center  flex justify-between items-center rounded-t-lg">
+        <Image src={project.logo} alt={project.logoAltText} width={120} height={120} />
+        <h3 className="text-white">{project.title}</h3>
       </div>
       <CardImage />
 
@@ -58,7 +52,7 @@ const PortfolioCard = ({ project }: { project: Project }) => {
         <p className="inline-block bg-green-700 text-white text-xs font-bold px-3 py-2 mt-0 rounded-sm w-full mb-0 d-block">
           Project technology
         </p>
-        <div className="grid grid-flow-col auto-cols-max gap-3 p-5 bg-white border border-gray-300">
+        <div className="grid grid-flow-col auto-cols-max gap-3 p-5">
           {project.technologies.map((tech, i) => (
             <PopoverElement key={i} content={tech} trigger="hover">
               <Image

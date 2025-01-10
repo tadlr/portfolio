@@ -43,7 +43,7 @@
     "skills": [
       {
         "name": "React Native",
-        "logo": "/images/react-native.webp",
+        "logo": "/images/react-native.svg",
         "alt": "React Native Logo"
       },
       { "name": "Swift", "logo": "/images/swift.svg", "alt": "Swift Logo" },

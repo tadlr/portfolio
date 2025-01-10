@@ -11,7 +11,7 @@ const Carousel = ({ images }: CarouselProps) => {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div className="light">
+    <div className="dark portfolio_carousel">
       <div
         className="relative w-full overflow-hidden  h-[220px]"
         onClick={() => setOpenModal(true)}>
@@ -35,9 +35,12 @@ const Carousel = ({ images }: CarouselProps) => {
         ))}
       </div>
 
-      <Modal show={openModal} onClose={() => setOpenModal(false)}>
+      <Modal
+        show={openModal}
+        onClose={() => setOpenModal(false)}
+        className="dark portfolio_modal_carousel">
         <Modal.Header />
-        <Modal.Body>
+        <Modal.Body className="dark portfolio_carousel">
           <FlowbiteCarousel className="h-96 " pauseOnHover>
             {images.map((image, index) => {
               return (
