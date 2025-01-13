@@ -132,9 +132,44 @@
           "netlify",
           "render"
         ],
-        "video": "/portfolio/goodeals/goodeals.mp4",
+        "video": "https://www.youtube.com/embed/X-T1Cm_3idI?si=8W7k46YebBkA3_PQ",
+        "videoBtn": "View project",
         "logo": "/portfolio/goodeals/goodeals-logo.webp",
         "logoAltText": "Goodeals logo"
+      },
+      {
+        "title": "Open Doors Ottawa",
+        "image": "/portfolio/opendoors/opendoors-1.webp",
+        "altText": "Open Ddoors Banner",
+
+        "technologies": ["Swift", "xcode", "Firebase"],
+        "video": "https://www.youtube.com/embed/5L_nXrtsgT8",
+        "videoBtn": "View project",
+        "logo": "/portfolio/opendoors/opendoors-logo.webp",
+        "logoAltText": "opendoors logo",
+        "links": [
+          {
+            "label": "View source code",
+            "url": "https://github.com/tadlr/OpenDoors-Ottawa"
+          }
+        ]
+      },
+      {
+        "title": "Giftr Crossplatform App",
+        "image": "/portfolio/giftr/giftr-banner.webp",
+        "altText": "Giftr Banner",
+
+        "technologies": ["expo", "mongodb", "render", "postgreSQL", "xcode"],
+        "video": "https://www.youtube.com/embed/7GVPUfk-ZVI",
+        "videoBtn": "View project",
+        "logo": "/portfolio/giftr/giftr-logo.svg",
+        "logoAltText": "Giftr Logo",
+        "links": [
+          {
+            "label": "View source code",
+            "url": "https://github.com/tadlr/Giftr-React-Native"
+          }
+        ]
       }
     ]
   },

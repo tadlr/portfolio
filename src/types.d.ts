@@ -5,6 +5,8 @@ type Project = {
   logo: string;
   logoAltText: string;
   title: string;
+  video?: string;
+  videoBtn?: string;
   technologies: string[];
   links?: { url: string; label: string; icon: string }[];
 };
@@ -20,3 +22,19 @@ type PrettyButonProps = {
   url: string;
   className?: string;
 };
+
+interface CarouselProps {
+  images: { src: string; alt: string }[];
+}
+
+interface PopoverElementProps {
+  content: string | React.ReactNode;
+  trigger?: 'click' | 'hover';
+  children: React.ReactNode;
+}
+
+interface PrettyButtonProps {
+  url: string;
+  label: string;
+  className?: string;
+}

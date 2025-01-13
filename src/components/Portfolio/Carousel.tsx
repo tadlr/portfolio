@@ -3,10 +3,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { Modal, Carousel as FlowbiteCarousel } from 'flowbite-react';
 
-interface CarouselProps {
-  images: { src: string; alt: string }[];
-}
-
 const Carousel = ({ images }: CarouselProps) => {
   const [openModal, setOpenModal] = useState(false);
 
