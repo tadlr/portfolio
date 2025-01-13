@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 const AboutMe = () => {
   return (
     <section id="about-me" className="bg-slate-900 py-12">
@@ -8,14 +6,14 @@ const AboutMe = () => {
           {/* Title Section */}
           <div className="lg:col-span-1">
             <div className="sticky top-20">
-              <h2 className="text-4xl font-medium text-gray-200">
+              <h2 className="text-4xl font-medium text-gray-200 animate fade__left">
                 <span className="featured">About me</span>
               </h2>
             </div>
           </div>
 
           {/* Content Section */}
-          <div className="lg:col-span-3 space-y-6 text-gray-300">
+          <div className="lg:col-span-3 space-y-6 text-gray-300 animate fade__right">
             <p>
               Innovative and goal-oriented Full Stack Developer with nearly a decade of experience
               in web and mobile application development. Known for a strong commitment to

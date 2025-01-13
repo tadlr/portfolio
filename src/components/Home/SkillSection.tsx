@@ -9,7 +9,7 @@ const SkillSection = () => {
           {/* Sidebar Title */}
           <div className="lg:col-span-1">
             <div className="sticky top-20">
-              <h2 className="text-4xl font-medium text-gray-200">
+              <h2 className="text-4xl font-medium text-gray-200 animate fade__left">
                 <span className="featured">Known technologies and skills</span>
               </h2>
             </div>
@@ -21,10 +21,12 @@ const SkillSection = () => {
               <div key={index} className="space-y-8">
                 {/* Section Title */}
                 <div className="bg-slate-950 sticky top-0 pt-12 px-2 z-10">
-                  <h3 className="text-xl font-semibold text-gray-200">{section.title}</h3>
+                  <h3 className="text-xl font-semibold text-gray-200 animate fade__top">
+                    {section.title}
+                  </h3>
                 </div>
                 {/* Skills Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 px-2 pb-3">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 px-2 pb-3 animate fade__bottom">
                   {section.skills.map((skill, i) => (
                     <div
                       key={i}

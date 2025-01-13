@@ -97,7 +97,7 @@ function Header() {
             className={`hover:text-purple-200 ${isActiveLink('/my-work') ? 'font-bold' : ''}`}>
             Some of my work
           </a>
-          <a
+          {/* <a
             href="https://tayfox.ca"
             target="_blank"
             rel="noreferrer"
@@ -110,7 +110,7 @@ function Header() {
             rel="noreferrer"
             className="hover:text-purple-200">
             Creative Writing
-          </a>
+          </a> */}
         </nav>
       </div>
     </header>

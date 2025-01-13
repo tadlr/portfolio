@@ -9,7 +9,7 @@ const WorkExperience = () => {
           {/* Sidebar Title */}
           <div className="lg:col-span-1">
             <div className="sticky top-20">
-              <h2 className="text-4xl font-medium text-gray-200">
+              <h2 className="text-4xl font-medium text-gray-200 animate fade__left">
                 <span className="featured">Work Experience</span>
               </h2>
             </div>
@@ -21,15 +21,17 @@ const WorkExperience = () => {
               <article key={index} className="space-y-4 bg-slate-800  rounded-lg">
                 <div className="bg-slate-900 p-6 sticky top-0 pt-12 px-0">
                   <div className="px-3">
-                    <p className="bg-purple-900 text-white text-sm font-semibold px-4 py-1 rounded-lg float-right">
+                    <p className="bg-purple-900 text-white text-sm font-semibold px-4 py-1 rounded-lg float-right animate fade__right">
                       {job.dates}
                     </p>
-                    <h3 className="text-xl font-bold text-purple-400 ">{job.title}</h3>
-                    <p className="text-purple-200 opacity-80">{job.company}</p>
+                    <h3 className="text-xl font-bold text-purple-400 animate fade__top">
+                      {job.title}
+                    </h3>
+                    <p className="text-purple-200 opacity-80 animate fade__in">{job.company}</p>
                   </div>
                 </div>
 
-                <ul className="list-disc list-inside text-gray-300 px-4 pb-5 shadow-sm-light">
+                <ul className="list-disc list-inside text-gray-300 px-4 pb-5 shadow-sm-light animate fade__bottom">
                   {job.responsibilities.map((task, i) => (
                     <li key={i}>{task}</li>
                   ))}

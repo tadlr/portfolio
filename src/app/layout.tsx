@@ -17,8 +17,6 @@ export const metadata: Metadata = {
   description: 'Some of my work and stuff.',
 };
 
-// export const runtime = 'edge';
-
 export default function RootLayout({
   children,
 }: Readonly<{

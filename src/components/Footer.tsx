@@ -43,7 +43,7 @@ const Footer = () => {
                     Some of my work
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://tayfox.ca"
                     target="_blank"
@@ -60,7 +60,7 @@ const Footer = () => {
                     className="hover:text-purple-300 hover:underline">
                     Creative Writing
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Footer = () => {
             </a>
             <a
               className="text-dark font-medium px-3 py-2 rounded-none hover:bg-gray-800 transition"
-              href="https://github.com/tadlr"
+              href="https://github.com/orgs/tadlr/repositories"
               target="_blank"
               rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} />

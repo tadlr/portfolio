@@ -40,7 +40,7 @@ const PortfolioCard = ({ project }: { project: Project }) => {
   };
 
   return (
-    <div className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex justify-between content-evenly flex-col portfolio_card">
+    <div className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex justify-between content-evenly flex-col portfolio_card animate fade__bottom">
       {/* <PopoverElement content={project.title} trigger="hover"> */}
       <div className="w-full px-2 py-2 text-center  flex justify-between items-center rounded-t-lg">
         <Image src={project.logo} alt={project.logoAltText} width={120} height={120} />
