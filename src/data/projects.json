@@ -34,6 +34,164 @@
         ]
       },
       {
+        "title": "CHRC Complaint Form",
+        "images": [
+          {
+            "src": "/portfolio/chrc/chrc-complaint.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/chrc/chrc-complaint-1.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/chrc/chrc-complaint-2.webp",
+            "alt": "Project Screenshot"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS", "Web Experience Toolkit"],
+
+        "logo": "/portfolio/chrc/chrc-logo-white-en-large.svg",
+        "logoAltText": "CHRC Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://complaint.chrc-ccdp.ca/en"
+          }
+        ]
+      },
+      {
+        "title": "Canadian Human Rights Tribunal",
+        "images": [
+          {
+            "src": "/portfolio/chrt/chrt.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/chrt/chrt-1.webp",
+            "alt": "Project Screenshot"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS", "Web Experience Toolkit"],
+
+        "logo": "/portfolio/chrt/logo.svg",
+        "logoAltText": "CHRC Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://chrt-tcdp.gc.ca"
+          }
+        ]
+      },
+      {
+        "title": "Canadian International Trade Tribunal",
+        "images": [
+          {
+            "src": "/portfolio/citt/citt.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/citt/citt-1.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/citt/citt-2.webp",
+            "alt": "Project Screenshot"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS", "Web Experience Toolkit"],
+
+        "logo": "/portfolio/citt/logo.svg",
+        "logoAltText": "CITT Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://www.citt-tcce.gc.ca/en"
+          }
+        ]
+      },
+      {
+        "title": "Specific Claims Tribunal",
+        "images": [
+          {
+            "src": "/portfolio/sct/sct.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/sct/sct-1.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/sct/sct-2.webp",
+            "alt": "Project Screenshot"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS", "Web Experience Toolkit"],
+
+        "logo": "/portfolio/sct/logo.svg",
+        "logoAltText": "sct Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://www.sct-trp.ca"
+          }
+        ]
+      },
+      {
+        "title": "Office of the Commissioner of Official Languages of Canada",
+        "images": [
+          {
+            "src": "/portfolio/ocol/ocol.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/ocol/ocol-1.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/ocol/ocol-2.webp",
+            "alt": "Project Screenshot"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS", "Web Experience Toolkit"],
+
+        "logo": "/portfolio/ocol/logo.svg",
+        "logoAltText": "ocol Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://www.clo-ocol.gc.ca/en"
+          }
+        ]
+      },
+      {
+        "title": "Canadian Industrial Relations Board",
+        "images": [
+          {
+            "src": "/portfolio/cirb/cirb.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/cirb/cirb-1.webp",
+            "alt": "Project Screenshot"
+          },
+          {
+            "src": "/portfolio/cirb/cirb-2.webp",
+            "alt": "Project Screenshot"
+          }
+        ],
+        "technologies": ["Drupal", "JavaScript", "CSS", "Web Experience Toolkit"],
+
+        "logo": "/portfolio/cirb/logo.svg",
+        "logoAltText": "cirb Logo",
+        "links": [
+          {
+            "label": "View project",
+            "url": "https://www.cirb-ccri.gc.ca/en"
+          }
+        ]
+      },
+      {
         "title": "Invest in Canada FDI Report",
         "images": [
           {

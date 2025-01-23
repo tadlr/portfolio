@@ -41,15 +41,15 @@ const PortfolioCard = ({ project }: { project: Project }) => {
 
   return (
     <div className="border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col justify-between portfolio_card animate fade__bottom">
-      <div className="w-full px-2 py-2 text-center flex justify-between items-center rounded-t-lg">
+      <div className="w-full px-2 py-2 text-center flex justify-around items-center rounded-t-lg">
         <Image
           src={project.logo}
           alt={project.logoAltText}
           width={120}
           height={120}
-          className="h-12 w-auto"
+          className="h-12 w-full max-w-1/2 px-3 object-left object-contain"
         />
-        <h3 className="text-white">{project.title}</h3>
+        <h3 className="text-white text-right w-full max-w-1/2 px-3">{project.title}</h3>
       </div>
 
       <ProjectMedia />
@@ -62,7 +62,7 @@ const PortfolioCard = ({ project }: { project: Project }) => {
           {project.technologies.map((tech, i) => (
             <PopoverElement key={i} content={tech} trigger="hover">
               <Image
-                src={`/images/${tech.toLowerCase()}.svg`}
+                src={`/logos/${tech.toLowerCase().replace(/\s+/g, '-')}.svg`}
                 alt={`${tech} logo`}
                 width={50}
                 height={50}

@@ -18,7 +18,7 @@ const Footer = () => {
                   className="flex items-center text-gray-200 hover:text-purple-300 hover:underline">
                   <div className="logo flex gap-3 items-center margin-0">
                     <Image
-                      src="/images/logo.svg"
+                      src="/logos/logo.svg"
                       alt="Logo"
                       className="logo__img"
                       width={50}
@@ -43,24 +43,6 @@ const Footer = () => {
                     Some of my work
                   </a>
                 </li>
-                {/* <li>
-                  <a
-                    href="https://tayfox.ca"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="hover:text-purple-300 hover:underline">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.wattpad.com/user/TayJFox"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="hover:text-purple-300 hover:underline">
-                    Creative Writing
-                  </a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -91,28 +73,6 @@ const Footer = () => {
               rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a
-              className=" text-white font-medium px-3 py-2 rounded-none hover:bg-blue-800 transition"
-              href="https://tayfox.ca"
-              target="_blank"
-              rel="noreferrer">
-              <FontAwesomeIcon icon={faBlog} />
-            </a>
-            <a
-              className=" text-white font-medium px-3 py-2 rounded-md  rounded-s-none hover:bg-gray-400 hover:text-gray-900 transition"
-              href="https://www.wattpad.com/user/TayJFox"
-              target="_blank"
-              rel="noreferrer">
-              <FontAwesomeIcon icon={faBookOpen} />
-            </a>
-
-            {/* <a
-              className="text-white font-medium px-3 py-2 rounded-md  rounded-s-none hover:bg-gray-400 transition"
-              href=""
-              target="_blank"
-              rel="noreferrer">
-              <FontAwesomeIcon icon={faCodeFork} /> Fork this site
-            </a> */}
           </div>
         </div>
       </div>

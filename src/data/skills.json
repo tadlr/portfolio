@@ -2,38 +2,38 @@
   {
     "title": "Web Development",
     "skills": [
-      { "name": "React", "logo": "/images/react.svg", "alt": "React Logo" },
+      { "name": "React", "logo": "/logos/react.svg", "alt": "React Logo" },
       {
         "name": "Next.js",
-        "logo": "/images/nextjs.svg",
+        "logo": "/logos/nextjs.svg",
         "alt": "Next.js Logo"
       },
-      { "name": "PHP", "logo": "/images/php.svg", "alt": "PHP Logo" },
+      { "name": "PHP", "logo": "/logos/php.svg", "alt": "PHP Logo" },
       {
         "name": "TailwindCSS",
-        "logo": "/images/tailwindcss.svg",
+        "logo": "/logos/tailwindcss.svg",
         "alt": "TailwindCSS Logo"
       },
-      { "name": "Vue.js", "logo": "/images/vue.svg", "alt": "Vue.js Logo" },
+      { "name": "Vue.js", "logo": "/logos/vue.svg", "alt": "Vue.js Logo" },
       {
         "name": "Webpack",
-        "logo": "/images/webpack.svg",
+        "logo": "/logos/webpack.svg",
         "alt": "Webpack Logo"
       },
-      { "name": "Gulp", "logo": "/images/gulp.svg", "alt": "Gulp Logo" },
+      { "name": "Gulp", "logo": "/logos/gulp.svg", "alt": "Gulp Logo" },
       {
         "name": "jQuery",
-        "logo": "/images/jquery.svg",
+        "logo": "/logos/jquery.svg",
         "alt": "jQuery Logo"
       },
       {
         "name": "Bootstrap",
-        "logo": "/images/bootstrap.svg",
+        "logo": "/logos/bootstrap.svg",
         "alt": "Bootstrap Logo"
       },
       {
         "name": "Angular",
-        "logo": "/images/angular.svg",
+        "logo": "/logos/angular.svg",
         "alt": "Angular Logo"
       }
     ]
@@ -43,21 +43,21 @@
     "skills": [
       {
         "name": "React Native",
-        "logo": "/images/react-native.svg",
+        "logo": "/logos/react-native.svg",
         "alt": "React Native Logo"
       },
-      { "name": "Swift", "logo": "/images/swift.svg", "alt": "Swift Logo" },
+      { "name": "Swift", "logo": "/logos/swift.svg", "alt": "Swift Logo" },
       {
         "name": "Kotlin",
-        "logo": "/images/kotlin.svg",
+        "logo": "/logos/kotlin.svg",
         "alt": "Kotlin Logo"
       },
       {
         "name": "Flutter",
-        "logo": "/images/flutter.svg",
+        "logo": "/logos/flutter.svg",
         "alt": "Flutter Logo"
       },
-      { "name": "Maui", "logo": "/images/maui.svg", "alt": "Maui Logo" }
+      { "name": "Maui", "logo": "/logos/maui.svg", "alt": "Maui Logo" }
     ]
   },
   {
@@ -65,20 +65,25 @@
     "skills": [
       {
         "name": "Drupal",
-        "logo": "/images/drupal.svg",
+        "logo": "/logos/drupal.svg",
         "alt": "Drupal Logo"
       },
       {
+        "name": "Web Experience Toolkit",
+        "logo": "/logos/web-experience-toolkit.svg",
+        "alt": "WET-BOEW Logo"
+      },
+      {
         "name": "WordPress",
-        "logo": "/images/wordpress.svg",
+        "logo": "/logos/wordpress.svg",
         "alt": "WordPress Logo"
       },
       {
         "name": "Shopify",
-        "logo": "/images/shopify.svg",
+        "logo": "/logos/shopify.svg",
         "alt": "Shopify Logo"
       },
-      { "name": "Wix", "logo": "/images/wix.svg", "alt": "Wix Logo" }
+      { "name": "Wix", "logo": "/logos/wix.svg", "alt": "Wix Logo" }
     ]
   },
   {
@@ -86,23 +91,23 @@
     "skills": [
       {
         "name": "PostgreSQL",
-        "logo": "/images/postgresql.svg",
+        "logo": "/logos/postgresql.svg",
         "alt": "PostgreSQL Logo"
       },
       {
         "name": "MongoDB",
-        "logo": "/images/mongodb.svg",
+        "logo": "/logos/mongodb.svg",
         "alt": "MongoDB Logo"
       },
       {
         "name": "Firebase",
-        "logo": "/images/firebase.svg",
+        "logo": "/logos/firebase.svg",
         "alt": "Firebase Logo"
       },
-      { "name": "Redis", "logo": "/images/redis.svg", "alt": "Redis Logo" },
+      { "name": "Redis", "logo": "/logos/redis.svg", "alt": "Redis Logo" },
       {
         "name": "Supabase",
-        "logo": "/images/supabase.svg",
+        "logo": "/logos/supabase.svg",
         "alt": "Supabase Logo"
       }
     ]
@@ -112,44 +117,44 @@
     "skills": [
       {
         "name": "GitHub",
-        "logo": "/images/github.svg",
+        "logo": "/logos/github.svg",
         "alt": "GitHub Logo"
       },
       {
         "name": "GitLab",
-        "logo": "/images/gitlab.svg",
+        "logo": "/logos/gitlab.svg",
         "alt": "GitLab Logo"
       },
       {
         "name": "Azure DevOps",
-        "logo": "/images/azure-devops.svg",
+        "logo": "/logos/azure-devops.svg",
         "alt": "Azure DevOps Logo"
       },
       {
         "name": "Docker",
-        "logo": "/images/docker.svg",
+        "logo": "/logos/docker.svg",
         "alt": "Docker Logo"
       },
       {
         "name": "Kubernetes",
-        "logo": "/images/kubernetes.svg",
+        "logo": "/logos/kubernetes.svg",
         "alt": "Kubernetes Logo"
       },
-      { "name": "Azure", "logo": "/images/azure.svg", "alt": "Azure Logo" },
-      { "name": "AWS", "logo": "/images/aws.svg", "alt": "AWS Logo" },
+      { "name": "Azure", "logo": "/logos/azure.svg", "alt": "Azure Logo" },
+      { "name": "AWS", "logo": "/logos/aws.svg", "alt": "AWS Logo" },
       {
         "name": "Google Cloud",
-        "logo": "/images/google-cloud.svg",
+        "logo": "/logos/google-cloud.svg",
         "alt": "Google Cloud Logo"
       },
       {
         "name": "Vercel",
-        "logo": "/images/vercel.svg",
+        "logo": "/logos/vercel.svg",
         "alt": "Vercel Logo"
       },
       {
         "name": "Netlify",
-        "logo": "/images/netlify.svg",
+        "logo": "/logos/netlify.svg",
         "alt": "Netlify Logo"
       }
     ]
@@ -157,20 +162,20 @@
   {
     "title": "Testing and Quality Assurance",
     "skills": [
-      { "name": "Jest", "logo": "/images/jest.svg", "alt": "Jest Logo" },
+      { "name": "Jest", "logo": "/logos/jest.svg", "alt": "Jest Logo" },
       {
         "name": "Cypress",
-        "logo": "/images/cypress.svg",
+        "logo": "/logos/cypress.svg",
         "alt": "Cypress Logo"
       },
       {
         "name": "Appium",
-        "logo": "/images/appium.svg",
+        "logo": "/logos/appium.svg",
         "alt": "Appium Logo"
       },
       {
         "name": "Postman",
-        "logo": "/images/postman.svg",
+        "logo": "/logos/postman.svg",
         "alt": "Postman Logo"
       }
     ]
@@ -180,34 +185,34 @@
     "skills": [
       {
         "name": "Visual Studio Code",
-        "logo": "/images/vs-code.svg",
+        "logo": "/logos/vs-code.svg",
         "alt": "Visual Studio Code Logo"
       },
       {
         "name": "Android Studio",
-        "logo": "/images/android-studio.svg",
+        "logo": "/logos/android-studio.svg",
         "alt": "Android Studio Logo"
       },
-      { "name": "Xcode", "logo": "/images/xcode.svg", "alt": "Xcode Logo" },
+      { "name": "Xcode", "logo": "/logos/xcode.svg", "alt": "Xcode Logo" },
       {
         "name": "IntelliJ",
-        "logo": "/images/intellij.svg",
+        "logo": "/logos/intellij.svg",
         "alt": "IntelliJ Logo"
       },
       {
         "name": "WebStorm",
-        "logo": "/images/webstorm.svg",
+        "logo": "/logos/webstorm.svg",
         "alt": "WebStorm Logo"
       },
-      { "name": "Rider", "logo": "/images/rider.webp", "alt": "Rider Logo" },
+      { "name": "Rider", "logo": "/logos/rider.webp", "alt": "Rider Logo" },
       {
         "name": "Visual Studio",
-        "logo": "/images/visual-studio.svg",
+        "logo": "/logos/visual-studio.svg",
         "alt": "Visual Studio Logo"
       },
       {
         "name": "Unity",
-        "logo": "/images/unity-logo.svg",
+        "logo": "/logos/unity-logo.svg",
         "alt": "Unity Logo"
       }
     ]
@@ -217,42 +222,42 @@
     "skills": [
       {
         "name": "Prisma",
-        "logo": "/images/prisma.svg",
+        "logo": "/logos/prisma.svg",
         "alt": "Prisma Logo"
       },
       {
         "name": "Adobe Photoshop",
-        "logo": "/images/photoshop.svg",
+        "logo": "/logos/photoshop.svg",
         "alt": "Adobe Photoshop Logo"
       },
       {
         "name": "Adobe Illustrator",
-        "logo": "/images/illustrator.svg",
+        "logo": "/logos/illustrator.svg",
         "alt": "Adobe Illustrator Logo"
       },
       {
         "name": "Adobe XD",
-        "logo": "/images/adobexd.svg",
+        "logo": "/logos/adobexd.svg",
         "alt": "Adobe XD Logo"
       },
-      { "name": "Figma", "logo": "/images/figma.svg", "alt": "Figma Logo" },
+      { "name": "Figma", "logo": "/logos/figma.svg", "alt": "Figma Logo" },
       {
         "name": "Final Draft",
-        "logo": "/images/final-draft.svg",
+        "logo": "/logos/final-draft.svg",
         "alt": "Final Draft Logo"
       },
       {
         "name": "Procreate",
-        "logo": "/images/procreate.svg",
+        "logo": "/logos/procreate.svg",
         "alt": "Procreate Logo"
       },
-      { "name": "Plesk", "logo": "/images/plesk.svg", "alt": "Plesk Logo" },
+      { "name": "Plesk", "logo": "/logos/plesk.svg", "alt": "Plesk Logo" },
       {
         "name": "Cloudflare",
-        "logo": "/images/cloudflare.svg",
+        "logo": "/logos/cloudflare.svg",
         "alt": "Cloudflare Logo"
       },
-      { "name": "Moho", "logo": "/images/moho.webp", "alt": "Moho Logo" }
+      { "name": "Moho", "logo": "/logos/moho.webp", "alt": "Moho Logo" }
     ]
   }
 ]

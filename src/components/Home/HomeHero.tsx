@@ -39,20 +39,6 @@ const HomeHero = () => {
               rel="noreferrer">
               <FontAwesomeIcon icon={faSquareGithub} /> Github
             </a>
-            {/* <a
-              className="bg-blue-700 text-white font-medium px-3 py-2 rounded-none hover:bg-blue-800 transition"
-              href="https://tayfox.ca"
-              target="_blank"
-              rel="noreferrer">
-              <FontAwesomeIcon icon={faBlog} /> Blog
-            </a>
-            <a
-              className="bg-gray-200 text-gray-800 font-medium px-3 py-2 rounded-md  rounded-s-none hover:bg-gray-400 transition"
-              href="https://www.wattpad.com/user/TayJFox"
-              target="_blank"
-              rel="noreferrer">
-              <FontAwesomeIcon icon={faBookOpen} /> Creative Writing
-            </a> */}
           </div>
         </div>
       </div>

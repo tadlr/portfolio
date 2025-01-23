@@ -57,7 +57,7 @@ function Header() {
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2 navbar-brand">
           <div className="logo flex gap-3 items-center margin-0">
-            <Image src="/images/logo.svg" alt="Logo" className="logo__img" width={50} height={50} />
+            <Image src="/logos/logo.svg" alt="Logo" className="logo__img" width={50} height={50} />
             <span className="font-base logo__text text-2xl">Gustavo's portfolio</span>
           </div>
         </a>
@@ -97,20 +97,6 @@ function Header() {
             className={`hover:text-purple-200 ${isActiveLink('/my-work') ? 'font-bold' : ''}`}>
             Some of my work
           </a>
-          {/* <a
-            href="https://tayfox.ca"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-purple-200">
-            Blog
-          </a>
-          <a
-            href="https://www.wattpad.com/user/TayJFox"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-purple-200">
-            Creative Writing
-          </a> */}
         </nav>
       </div>
     </header>
