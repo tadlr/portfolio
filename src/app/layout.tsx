@@ -26,6 +26,10 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth dark" suppressHydrationWarning>
       <head>
         <ThemeModeScript />
+        <script
+          defer
+          src="https://umami.vedla.net/script.js"
+          data-website-id="59858d17-b123-47bb-9f1b-3b3a5a05842c"></script>
       </head>
 
       <body className={`${lato.variable} antialiased`}>{children}</body>
